@@ -541,3 +541,9 @@ audio {
 .books-details img:hover {
     height: 305px;
 }
+
+.para {
+  color: white;
+  font-size: 1.1rem;
+  text-align: center;
+}
