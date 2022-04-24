@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style-1.css">
-    <link rel="shortcut icon" href="Picture.jpg" type="image">
+    <link rel="shortcut icon" href="joji.jpg" type="image">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
@@ -86,7 +86,6 @@
                         <ul>
                             <li>Playing Online games</li>
                             <li>Solving Rubiks Cube</li>
-                            <li>Playing Guitar</li>
                             <li>Web programming</li>
                             <li>Reading self-improvents books</li>
                             <li>Chess (kunwari)</li>
@@ -120,7 +119,7 @@
                 <div class="column left">
                     <div class="text">Almost 2 years sa programming field (Senior High)</div>
                     <p> On going -</p>
-                    <a href="https://www.techopedia.com/definition/23889/web-development">More Info.</a>
+                    <a href="https://www.techopedia.com/definition/23889/web-development">More</a>
                 </div>
                 <div class="column right">
                     <div class="bars">
@@ -217,17 +216,17 @@
     
 
 
+
     <script>
         $(document).ready(function(){
     $(window).scroll(function(){
-        // sticky navbar on scroll script
+
         if(this.scrollY > 1){
             $('.navbar').addClass("sticky");
         }else{
             $('.navbar').removeClass("sticky");
         }
         
-        // scroll-up button show/hide script
         if(this.scrollY > 500){
             $('.scroll-up-btn').addClass("show");
         }else{
@@ -235,23 +234,21 @@
         }
     });
   
-    // slide-up script
+
     $('.scroll-up-btn').click(function(){
         $('html').animate({scrollTop: 0});
-        // removing smooth scroll on slide-up button click
+
         $('html').css("scrollBehavior", "auto");
     });
   
-    // toggle menu/navbar script
     $('.menu-btn').click(function(){
         $('.navbar .menu').toggleClass("active");
         $('.menu-btn i').toggleClass("active");
     });
   
-    // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Benjo Calo", "Known as Ralph", "I am a", "Student", "Junior Web developer"],
-        typeSpeed: 80,
+        strings: ["Hi", "Enjoy Slow dancing in the dark by Joji!", "Explore my site", "Created by Me", "Enjoy!!"],
+        typeSpeed: 90,
         backSpeed: 20,
         loop: true
     });
@@ -263,7 +260,6 @@
         loop: true
     });
   
-    // owl carousel script
     $('.carousel').owlCarousel({
         margin: 20,
         loop: true,
